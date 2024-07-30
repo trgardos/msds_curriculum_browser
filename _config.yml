@@ -4,8 +4,20 @@ theme: just-the-docs
 
 url: https://trgardos.github.io/msds_curriculum_browser/
 
+color_scheme: dark
+
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 exclude:
   - README.md
+
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:path/
+
+just_the_docs:
+  collections:
+    courses:
+      name: Courses
